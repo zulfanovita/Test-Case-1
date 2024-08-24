@@ -1,0 +1,21 @@
+.groupIcon {
+  width: 48px;  /* Ubah ukuran sesuai kebutuhan */
+  height: 64px; /* Ubah ukuran sesuai kebutuhan */
+  margin-left: -60px;
+  margin-top: 25px; /* Tambahkan margin-top untuk menurunkan posisinya */
+}
+
+.groupIcon1 {
+  width: 240px; /* Ubah ukuran sesuai kebutuhan */
+  height: 30px; /* Ubah ukuran sesuai kebutuhan */
+  margin-top: 28.5px; /* Tambahkan margin-top untuk menurunkan posisinya */
+}
+
+.typeprimaryLightPositionh {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}

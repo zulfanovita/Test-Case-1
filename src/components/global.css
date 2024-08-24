@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --other-button: Inter;
+  --heading-h5: "Lexend Deca";
+
+  /* font sizes */
+  --other-button-size: 14px;
+  --other-caption-size: 10px;
+  --body-b2-size: 12px;
+  --heading-h5-size: 24px;
+  --font-size-lgi: 19px;
+
+  /* Colors */
+  --neutral-n0: #fff;
+  --primary-b400: #3366ff;
+  --neutral-n900: #000;
+  --neutral-n600: #b0b4c5;
+
+  /* Gaps */
+  --gap-95xl: 114px;
+  --gap-9xl: 28px;
+  --gap-38xl: 57px;
+  --gap-xl: 20px;
+  --gap-11xl: 30px;
+  --gap-mini: 15px;
+  --gap-3xs: 10px;
+  --gap-5xs: 8px;
+  --gap-base: 16px;
+  --gap-26xl: 45px;
+  --gap-3xl: 22px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-56xl: 75px;
+  --padding-16xl: 35px;
+  --padding-21xl: 40px;
+  --padding-11xl: 30px;
+  --padding-7xl: 26px;
+  --padding-xs: 12px;
+  --padding-base-5: 15.5px;
+  --padding-mini: 15px;
+  --padding-2xl: 21px;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-8xs: 5px;
+  --br-mini: 15px;
+
+  /* Effects */
+  --std: 0px 21px 50px rgba(0, 0, 0, 0.08);
+}

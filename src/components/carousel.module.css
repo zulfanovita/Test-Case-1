@@ -1,0 +1,84 @@
+.image4Icon,
+.image5Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0px;
+  border-radius: var(--br-mini);
+  width: 400px; /* Perbesar ukuran gambar */
+  height: 260px; /* Sesuaikan tingginya */
+  object-fit: cover;
+}
+
+.image5Icon {
+  width: 430px; /* Perbesar ukuran gambar */
+  height: 260px; /* Sesuaikan tingginya */
+  top: -50px;
+  left: -47px;
+  /* right: 100px; */
+}
+
+.image4Icon {
+  top: 50px; /* Naikkan gambar sedikit ke atas */
+  left: 116.6px;
+}
+
+.image5Parent {
+  position: absolute;
+  top: -10px; /* Naikkan seluruh parent gambar sedikit ke atas */
+  left: -50px;
+  width: 480px; /* Sesuaikan lebar parent */
+  height: 320px; /* Sesuaikan tinggi parent */
+}
+
+.property1frame5123Inner {
+  width: 480px; /* Sesuaikan lebar sesuai gambar */
+  position: relative;
+  height: 320px; /* Sesuaikan tinggi sesuai gambar */
+  margin-left: 50px;
+}
+
+.elevateYourMessaging,
+.selamatDatangDi {
+  width: 465px;
+  position: relative;
+  display: inline-block;
+  font-size: 25px;
+  margin-bottom: 70px; /* Menambahkan jarak di bawah teks */
+}
+
+.selamatDatangDi {
+  font-size: var(--other-button-size);
+  font-weight: 500;
+  font-family: var(--other-button);
+  color: black;
+  margin-top: 20px;
+}
+
+.elevateYourMessagingEfficieParent {
+  width: 465px;
+  gap: var(--gap-mini);
+  color: black;
+  margin-top: 20px;
+}
+
+.elevateYourMessagingEfficieParent,
+.property1frame5123,
+.property1frame5123Child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.property1frame5123 {
+  position: relative;
+  max-width: 100%;
+  gap: var(--gap-26xl);
+  text-align: left;
+  font-size: var(--heading-h5-size);
+  color: var(--neutral-n900);
+  font-family: var(--heading-h5);
+  margin-left: -100px;
+}
+

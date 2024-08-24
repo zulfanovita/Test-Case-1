@@ -1,0 +1,37 @@
+.carouselContent,
+.login {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.login {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-16xl) 0 0;
+  box-sizing: border-box;
+  min-width: 100px; /* Perbesar ukuran minimum */
+  top: -30px; /* Pindahkan ke atas */
+  position: relative; /* Tambahkan posisi relative untuk 'top' bekerja */
+  margin-left: 150px;
+}
+
+.carouselContent {
+  width: 1045px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-95xl);
+}
+
+@media screen and (max-width: 1050px) {
+  .carouselContent {
+    gap: var(--gap-38xl);
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .carouselContent {
+    gap: var(--gap-9xl);
+  }
+}
